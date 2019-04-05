@@ -31,8 +31,8 @@ python2.7下载链接：
 Visual C++ 2015 Build Tools
 下载链接： [BuildTools_Full.exe](https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe)
 # 2. ringnetwork超级节点
-## 2.1 下载trustnote-pow-supernode
-[点击下载 master](https://github.com/trustnote/trustnote-pow-supernode/archive/master.zip)
+## 2.1 下载超级节点程序
+git clone https://github.com/trustnote/trustnote-pow-supernode.git
 ## 2.2 安装依赖
 在trustnote-pow-supernode目录下用命令行运行cnpm install
 ## 2.3 内网穿透
