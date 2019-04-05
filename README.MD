@@ -74,11 +74,11 @@ exports.coinbase_address = "你的钱包地址";
 
 *****
 myURL：'ws://url:port'
+
 SuperNodeAddress：JYGTN8RUDOVP5TQGXRFZJUVIB2NFCFAD
 ******
 
 领取后，用git bash运行
 *****
-myURL：'ws://s2.natfrp.org:45043'
-SuperNodeAddress：JYGTN7RUDOVP5TQGXRFZJUVIB2NFCFAD
+curl --data '{"jsonrpc":"2.0", "id":1, "method":"createMinerAddress", "params":[1000000] }' http://127.0.0.1:6553
 ******
