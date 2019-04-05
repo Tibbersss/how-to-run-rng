@@ -34,6 +34,10 @@ Visual C++ 2015 Build Tools
 ## 2.1 下载超级节点程序
 git clone https://github.com/trustnote/trustnote-pow-supernode.git
 ## 2.2 安装依赖
+推荐安装cnpm，替代npm，加快后续部署，cnpm安装命令：
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
 在trustnote-pow-supernode目录下用命令行运行cnpm install
 ## 2.3 内网穿透
 点击打开免费的内网穿透服务natfrp： [https://www.natfrp.org](https://www.natfrp.org/)，注册账号，
